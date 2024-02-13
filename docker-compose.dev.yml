@@ -36,8 +36,8 @@ services:
       dockerfile: Dockerfile.web.dev
     ports:
       - "4300:4400"
-    volumes:
-      - ./web-angular:/app
+    # volumes:
+    #   - ./web-angular:/app
     env_file:
       - ./web-angular/.env
 

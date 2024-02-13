@@ -12,5 +12,5 @@ COPY . .
 
 EXPOSE 4400
 
-CMD ["pnpm", "start:dev"]
-# CMD ["tail", "-f", "/dev/null"]
+ CMD ["pnpm", "start:dev"]
+#CMD ["tail", "-f", "/dev/null"]
